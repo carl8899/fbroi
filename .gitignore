@@ -1,0 +1,10 @@
+/vendor
+/node_modules
+Homestead.yaml
+.env
+composer.lock
+/.idea
+/public/bower_components
+/public/mockup
+google.local.json
+.DS_Store
