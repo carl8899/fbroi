@@ -1,0 +1,201 @@
+<tab active="steps.step3" disabled="step2.$invalid">
+
+    <tab-heading>
+        Campaign Settings
+        <span class="badge badge-default pull-right wizard-step">3</span>
+    </tab-heading>
+
+    <form name="step3" class="campaign-setting-wrapper" role="form">
+        <div class="row">
+            <div class="col-sm-10">
+
+                <div class="form-group clearfix">
+                    <div class="col-sm-4 text-right">
+                        <label for="">Conversion Pixels:</label>
+                    </div>
+                    <div class="col-sm-8 ">
+                        <select class="form-control">
+                            <option>Checkouts</option>
+                            <option>Checkouts</option>
+                            <option>Checkouts</option>
+                            <option>Checkouts</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group clearfix">
+                    <div class="col-sm-4 text-right">
+                        <label for="">Campaign Name:</label>
+                    </div>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="" placeholder="">
+                    </div>
+                </div>
+
+                <div class="form-group clearfix">
+                    <div class="col-sm-4 text-right">
+                        <label for="">Ad Set:</label>
+                    </div>
+                    <div class="col-sm-8">
+                        <div><input type="radio" name="ad-set" class="mr-5" id="radio-1"><label for="radio-1"> Create New ad select from product category</label></div>
+                        <div><input type="radio" name="ad-set" class="mr-5" id="radio-2"><label for="radio-2"> Define your ad set manually</label></div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <input class="form-control mar-10" placeholder="Type name for new adset">
+                            </div>
+                            <div class="col-sm-4">
+                                <span style="line-height: 52px;">{age}_{gender}</span>
+                            </div>
+                        </div>
+                        <p>Information about A/B test will be added to the end of adset name</p>
+                    </div>
+                </div>
+
+                <div class="form-group clearfix">
+                    <div class="col-sm-4 text-right">
+                        <label for="">Adset Prefix (optional):</label>
+                    </div>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="" placeholder="">
+                    </div>
+                </div>
+
+                <div class="form-group clearfix">
+                    <div class="col-sm-4 text-right">
+                        <label for="">Adset Budget:</label>
+                    </div>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="" placeholder="">
+                    </div>
+                    <div class="col-sm-3 text-right">
+                        <button class="btn-primary btn">DAILY</button>
+                        <button class="btn-default btn">LIFETIME</button>
+                    </div>
+                </div>
+
+                <div class="form-group clearfix schedule-wrapper">
+                    <div class="col-sm-4 text-right">
+                        <label for="">Schedule:</label>
+                    </div>
+                    <div class="col-sm-8">
+                        <div>
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Run Continously Starting Today</a></li>
+                                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Set Start and End Date</a></li>
+                                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Set Days of the Week</a></li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="home">
+                                    Run Continously Starting Today
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="profile">
+                                    Set Start and End Date
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="messages">
+                                    <div class="form-group clearfix">
+                                        <div class="row">
+                                            <div class="col-xs-4">
+                                                <select class="form-control">
+                                                    <option>Checkouts</option>
+                                                    <option>Checkouts</option>
+                                                    <option>Checkouts</option>
+                                                    <option>Checkouts</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-3">
+                                                <input class="form-control" type="text" placeholder="12:00PM">
+                                            </div>
+                                            <div class="col-xs-3">
+                                                <input class="form-control" type="text" placeholder="12:30PM">
+                                            </div>
+                                            <div class="col-xs-2">
+                                                <a href="javascript:void(0);">
+                                                    <span class="glyphicon glyphicon-remove"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group clearfix">
+                                            <div class="col-xs-4">
+                                                <select class="form-control">
+                                                    <option>Sunday</option>
+                                                    <option>Monday</option>
+                                                    <option>Tuesday</option>
+                                                    <option>Wednesday</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-3">
+                                                <input class="form-control" type="text" placeholder="12:00PM">
+                                            </div>
+                                            <div class="col-xs-3">
+                                                <input class="form-control" type="text" placeholder="12:30PM">
+                                            </div>
+                                            <div class="col-xs-2">
+                                                <a href="javascript:void(0);">
+                                                    <span class="glyphicon glyphicon-remove"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn-primary">Add New Schedule</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group clearfix">
+                    <div class="col-sm-4 text-right">
+                        <label for="">Optimize For:</label>
+                    </div>
+                    <div class="col-sm-8">
+                        <select class="form-control">
+                            <option>Clicks to Web Site</option>
+                            <option>Clicks</option>
+                            <option>Daily Unique Reach</option>
+                            <option>Impressions</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group clearfix">
+                    <div class="col-sm-4 text-right">
+                        <label for="">Bidding:</label>
+                    </div>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" placeholder="$0.08">
+                        <span>Suggested bid: 0.50 - 1.25</span>
+                    </div>
+                </div>
+
+                <div class="form-group clearfix">
+                    <div class="col-sm-4 text-right">
+                        <label for="">Campaign End:</label>
+                    </div>
+                    <div class="col-sm-8">
+                        <select class="form-control">
+                            <option>Pause Ad</option>
+                            <option>Delete Ad</option>
+                            <option>Nothing</option>
+                        </select>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div style="margin-top:20px;">
+            <button type="submit" class="btn btn-primary" ng-click="steps.step2 = true">Previous</button>
+            <button type="submit" ng-disabled="step3.$invalid" class="btn btn-success pull-right" ng-click="steps.step4 = true">Finish</button>
+        </div>
+    </form>
+</tab>
